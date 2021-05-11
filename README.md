@@ -13,7 +13,7 @@ The library used for bluetooth communication is not up to date with Flutters cur
 null safety standard. Therefore to run the app use the following command
 
 ```bash
-dart run --no-sound-null-safety
+flutter run --no-sound-null-safety
 ```
 
 This will allow you to run the app without checking for null safety.
