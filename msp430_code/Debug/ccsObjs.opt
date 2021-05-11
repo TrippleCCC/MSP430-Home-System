@@ -1,0 +1,1 @@
+"./bluetooth_module.obj" "./data_protocol.obj" "./main.obj" "./temp_module.obj" "../lnk_msp430g2553.cmd" -llibc.a 
