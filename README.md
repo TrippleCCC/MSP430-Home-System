@@ -1,16 +1,20 @@
-# flutter_application_1
+# ELEC 327 Final Project: Home Hub
 
-A new Flutter project.
+A flutter app and msp430 for a simple home monitoring system
 
-## Getting Started
+## Devleopment
+### Preequisites
+In order to develop this app you need to donwload Flutter and Code Composer Studio.
+The root of this repo can be used for the project root of the flutter app.
+The folder msp430_code can be used for the root of the Code Composer project.
 
-This project is a starting point for a Flutter application.
+### Flutter
+The library used for bluetooth communication is not up to date with Flutters current
+null safety standard. Therefore to run the app use the following command
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+dart run --no-sound-null-safety
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This will allow you to run the app without checking for null safety.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
